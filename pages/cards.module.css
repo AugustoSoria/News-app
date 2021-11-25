@@ -1,0 +1,33 @@
+.notices {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    column-gap: 130px;
+}
+  
+.notice {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.img {
+    width: 300px;
+}
+  
+.divImg {
+    overflow: hidden;
+  
+}
+  
+.hr {
+    border-top: 1px solid gray;
+    width: 86%;
+}
+
+.main {
+    padding: 200px 90px 0px 90px;
+  }
